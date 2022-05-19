@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CovidTracker">
         <activity
+            android:name=".StatisticsScreen"
+            android:exported="false" />
+        <activity
+            android:name=".NewsScreen"
+            android:exported="false" />
+        <activity
+            android:name=".MapScreen"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
